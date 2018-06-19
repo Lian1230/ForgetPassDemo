@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+.DS_Store
+
+# SASS Cache
+.sass-cache
+.sass-cache/*
+
+# Dependency directories
+node_modules
+bower_components
+
+# Build directory
+build/**/config
+build/**/serverAPI
+build/**/css
+build/**/img
+build/**/*.js
+build/**/*.json
+build/**/*.html
+upload.zip
+
+# Optional npm cache directory
+.npm
+.idea/
+rawResult.js
+mytest*
+node_modules_old
+gulpfile_test.js
+build_staging
+build_production
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

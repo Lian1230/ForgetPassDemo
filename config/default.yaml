@@ -1,0 +1,2 @@
+sumologic:
+  endpoint: https://endpoint3.collection.us2.sumologic.com/receiver/v1/http/

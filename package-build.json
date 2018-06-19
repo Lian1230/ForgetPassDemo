@@ -1,0 +1,19 @@
+{
+  "name": "corl-investor-frontend",
+  "version": "0.1.0",
+  "description": "Corl investor front end",
+  "author": "Corl Financial Inc.",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "express": "^4.15.2",
+    "js-yaml": "^3.11.0",
+    "morgan": "^1.8.1",
+    "sumologic": "^1.0.2",
+    "debug": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export DEBUG='dev:*' && node server.js"
+  }
+}
